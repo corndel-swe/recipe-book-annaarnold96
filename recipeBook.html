@@ -33,44 +33,51 @@
 
         </tr>
     </table>
+
     <br><br><br>
 
     <form>
         <table>
             <tr>
                 <td>
-                <h2 align="center">Submit a new recipe!</h2>
-            </td>
+                    <h2 align="center">Submit a new recipe!</h2>
+                </td>
             </tr>
             
-            <tr><td>
-                
-                <label for="recipe-name">Recipe Name:</label>
-                <input type="text" id="recipe-title" name="recipe-name" />
-            </td>
+            <tr>
+                <td>
+                    <label for="recipe-name">Recipe Name:</label><br>
+                    <input class="rounded" type="text" id="recipe-title" name="recipe-name" />
+                </td>
             </tr>
 
-            <tr><td>
-                <label for="time">Time to cook (hrs):</label>
-                <select id="time" name="time">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                  </select>
-            </td>
+            <tr>
+                <td>
+                    <label for="time">Time to cook (hrs):</label>
+                    <select class="rounded" id="time" name="time">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="life-story">May as well add your life story:</label><br>
+                    <textarea class="rounded" id="life-story" name="life-story"></textarea>
+                </td>
             </tr>
 
-            <tr><td>
-                <input type="submit" value="Submit Recipe" />
-            </td>
-
+            <tr>
+                <td>
+                    <input type="submit" value="Submit Recipe" />
+                </td>
             </tr>
         </table>
     </form>
-
     
 </body>
 </html>

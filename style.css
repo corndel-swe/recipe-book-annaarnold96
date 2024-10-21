@@ -5,9 +5,9 @@
 h1{
     background-color: #1180ff;
     text-align: center;
-    padding-top: 150px;
+    justify-content: center;
     color:#f2f2f2;
-    min-height: 170px;
+    min-height: 100px;
 }
 
 h2{
@@ -31,6 +31,7 @@ table{
 td{
     min-width: 50%;
     max-width: 50%;
+    padding-bottom: 15px;
 }
 
 
@@ -48,4 +49,8 @@ td{
 form{
     text-align: center;
     align-items: center;
+}
+
+.rounded{
+    border-radius: 5px;
 }
