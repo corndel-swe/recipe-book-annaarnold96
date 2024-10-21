@@ -1,3 +1,7 @@
+/* body{
+    text-align: center;
+} */
+
 h1{
     background-color: #1180ff;
     text-align: center;
@@ -19,7 +23,7 @@ p{
 table{
     background-color: #1180ff3d;
     max-width: 650px;
-    padding-left: 30px;
+    padding: 30px;
     min-width: 100%;
 
 }
@@ -39,4 +43,9 @@ td{
 
 .centerImg{
     margin: -400px 0 0 0;
+}
+
+form{
+    text-align: center;
+    align-items: center;
 }
