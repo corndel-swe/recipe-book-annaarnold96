@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Recipe 2</title>
+</head>
+<body>
+
+    <header>
+        <h1>Anna's Recipe Book</h1>
+        <nav>
+            <a href="index.html">Home </a>|
+            <a href="https://www.janespatisserie.com/2020/04/25/nyc-chocolate-chip-cookies/">NYC Cookies OG Recipe </a>|
+            <a href="https://www.bbc.co.uk/food/recipes">BBC Good Food </a>|
+            <a href="recipe1.html">NYC Cookies </a>|
+            <a href="submitARecipe.html">Submit a recipe </a>
+        </nav>
+    </header>
+
+    <main>           
+
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <h2 align="center">Submit a new recipe!</h2>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <label for="recipe-name">Recipe Name:</label><br>
+                        <input class="rounded" type="text" id="recipe-title" name="recipe-name" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="time">Time to cook (hrs):</label>
+                        <select class="rounded" id="time" name="time">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="life-story">May as well add your life story:</label><br>
+                        <textarea class="rounded" id="life-story" name="life-story"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="submit" value="Submit Recipe" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </main>
+
+    <footer>
+        Ummm... Footer stuff goes here
+    </footer>
+    
+</body>
+</html>
